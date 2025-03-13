@@ -7,12 +7,6 @@
     <meta name="author" content="Alexandre Lusa Jiresse">
     <title>WDD 131 – Fundamentals of Dynamic Web – Alexandre Lusa Jiresse</title>
     <link rel="stylesheet" href="styles/base.css">
-    <script defer>
-        document.addEventListener("DOMContentLoaded", function() {
-            document.getElementById("currentyear").textContent = new Date().getFullYear();
-            document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
-        });
-    </script>
 </head>
 <body>
     <header>
@@ -33,7 +27,7 @@
                 <p>My name is Alexandre Jiresse Lusa, and I am a student at Brigham Young University - Idaho. As a passionate student, I am committed to learning and growing in ways that will enable me to give back to my community. My experiences and aspirations are deeply connected to my roots, and I strive to make a positive impact wherever I go.</p>
             </div>
             <div class="card-image">
-                <img src="images/lus.png" alt="Your profile picture">
+                <img src="images/lus.png" alt="Profile picture of Alexandre Jiresse Lusa">
                 <p class="caption"></p>
             </div>
             <hr>
@@ -42,7 +36,7 @@
         <section class="card">
             <div class="card-content">
                 <div class="card-image">
-                    <img src="images/project.png" alt="Project image">
+                    <img src="images/project.png" alt="Project image representing web development">
                 </div>
                 <div class="card-text">
                     <h3>Web Frontend Development</h3>
@@ -61,5 +55,12 @@
         <p>&copy; <span id="currentyear"></span> Alexandre Lusa Jiresse, Democratic Republic of Congo</p>
         <p id="lastModified"></p>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("currentyear").textContent = new Date().getFullYear();
+            document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
+        });
+    </script>
 </body>
 </html>
