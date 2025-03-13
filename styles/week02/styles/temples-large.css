@@ -1,0 +1,20 @@
+/* Styles pour les grands écrans */
+@media screen and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    #menu-btn {
+        display: none;
+    }
+    
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}

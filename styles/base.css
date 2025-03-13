@@ -66,8 +66,10 @@ main {
 }
 
 .card img {
-    max-width: 90%;
-    border-radius: 3px;
+    max-width: 70%;
+    border-radius: 30%;
+    height: 100%;
+    width: 100%;
 }
 .card {
             display: flex;
