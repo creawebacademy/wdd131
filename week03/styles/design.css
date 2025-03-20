@@ -1,0 +1,88 @@
+body {
+	font-family: Roboto, helvetica, sans-serif;
+}
+
+header,
+main,
+footer {
+	max-width: 760px;
+	margin: 0 auto;
+}
+
+marquee {
+	padding: 1rem;
+	background-color: #eee;
+}
+
+h1 {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+main {
+	display: grid;
+}
+
+h2 {
+	color: navy;
+	text-align: center;
+    
+}
+
+article p {
+	text-align: justify;
+}
+.custom-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    /* Cible uniquement la section avec la classe .custom-list */
+.custom-list {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+/* Style du titre h3 */
+.custom-list h3 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Style de la liste */
+.custom-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style des éléments de la liste */
+.custom-list ul li {
+    padding: 8px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Supprime l'effet du <br><br> dans Item 3 */
+.custom-list ul li br {
+    display: none;
+}
+
+}
+
+.callout {
+	color: #777;
+	background-color: #702963;
+    padding: 20px 10px;
+}
+
+footer {
+	margin-top: 1rem;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: smaller;
+	text-align: right;
+}

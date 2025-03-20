@@ -1,0 +1,124 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: yellow; /* Gris clair pour meilleur contraste */
+    color: #1A1A1A; /* Noir très foncé pour une lisibilité AAA */
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #002B5B; /* Bleu très foncé - contraste AAA avec blanc */
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFCC00; /* Jaune vif - contraste AAA avec bleu foncé */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Image héros */
+picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Section météo */
+.weather-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    background: #004080; /* Bleu profond - contraste AAA avec blanc */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(150, 9, 9, 0.2);
+    margin: 20px;
+    flex-wrap: wrap;
+    color: white; /* Texte blanc pour contraste AAA */
+}
+
+.weather-info,
+.weather-image,
+.country-info {
+    flex: 1;
+    text-align: center;
+}
+
+.weather-info p,
+.country-info ul {
+    text-align: left;
+    margin: 10px auto;
+    width: 80%;
+}
+
+/* Image météo */
+.weather-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Captions */
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #CCCCCC; /* Gris moyen - contraste AAA sur fond bleu */
+}
+
+/* Section Introduction et Culture */
+section {
+    padding: 20px;
+    background-color: red; /* Gris foncé - contraste AAA avec texte blanc */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.4);
+    color: white;
+}
+
+h2 {
+    color: #FFCC00; /* Jaune vif - contraste AAA avec gris foncé */
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #002B5B; /* Bleu très foncé - contraste AAA avec blanc */
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .weather-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .weather-info p,
+    .country-info ul {
+        text-align: center;
+    }
+}

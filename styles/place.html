@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Democratic Republic of the Congo</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="place.css">
+    <!-- Link to your JavaScript file -->
+    <script defer src="place.js"></script>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Democratic Republic of the Congo</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#culture">Culture</a></li>
+                <li><a href="#weather">Weather</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Image with Weather Card Inside -->
+    <picture>
+        <source srcset="DRC.webp" media="(max-width: 600px)">
+        <source srcset="DRC.webp" media="(min-width: 601px)">
+        <img src="DRC.webp" alt="View of the Democratic Republic of the Congo">
+    </picture>
+    
+    <section class="weather-card">
+        
+        <!-- Weather Data -->
+        <figure class="weather-info">
+            <h2> Weather <span class="weather-icon-desktop">⛅</span>
+            </h2>
+            <p>Wind Chill: <span id="wind-chill">N/A</span></p>
+<p>Current Weather: <span id="current-weather">Loading...</span></p>
+<ul id="forecast"></ul>
+                <p id="current-weather"></p>
+                <ul id="forecast"></ul>
+            
+                <img src="path/to/weather-icon.svg" alt="Weather Icon" />
+            </div>
+        </figure>
+
+        <!-- Flag Image -->
+        <figure class="weather-image">
+            <picture>
+                <source srcset="congo-flag.avif" media="(max-width: 600px)">
+                <source srcset="congo-flag.avif" media="(min-width: 601px)">
+                <img src="congo-flag.avif" alt="Flag of the Democratic Republic of the Congo">
+            </picture>
+            <figcaption>Flag of the Democratic Republic of the Congo</figcaption>
+        </figure>
+
+        <!-- Country Information -->
+        <figure class="country-info">
+            <h3>Country Information</h3>
+            <ul>
+                <li><strong>Area:</strong> 2,345,409 km²</li>
+                <li><strong>Population:</strong> 95 million</li>
+                <li><strong>Capital:</strong> Kinshasa</li>
+                <li><strong>Languages Spoken:</strong> French, Lingala, Kikongo, Swahili, Tshiluba</li>
+                <li><strong>Currency:</strong> Congolese Franc (CDF)</li>
+                <li><strong>Time Zone:</strong> UTC +1</li>
+                <li><strong>Calling Code:</strong> +243</li>
+                <li><strong>Internet TLD:</strong> .cd</li>
+            </ul>
+            <figcaption>General Country Information</figcaption>
+        </figure>
+    </section>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>The Democratic Republic of the Congo (DRC) is a country located in Central Africa. It is known for its rich biodiversity and vibrant culture.</p>
+    </section>
+
+    <!-- Culture Section -->
+    <section id="culture">
+        <h2>Culture</h2>
+        <p>The DRC has a rich cultural heritage with ethnic diversity and fascinating traditions. From traditional dances to art, the country offers an impressive cultural variety.</p>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Democratic Republic of the Congo | Last modified: <span id="last-modified"></span></p>
+    </footer>
+
+</body>
+
+</html>
