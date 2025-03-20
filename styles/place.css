@@ -122,3 +122,35 @@ footer {
         text-align: center;
     }
 }
+
+@media (min-width: 768px) { 
+    img {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) { 
+    img {
+        display: block;
+    }
+}
+  
+@media (max-width: 767px) { 
+    .mobile-only {
+        display: block;
+        width: 80px; /* Réduit encore plus la taille */
+        height: auto; /* Garde le ratio */
+    }
+}
+
+@media (max-width: 767px) { 
+    .weather-icon-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) { 
+    .weather-icon-desktop {
+        display: inline; /* Assure que l'icône s'affiche normalement */
+    }
+}
