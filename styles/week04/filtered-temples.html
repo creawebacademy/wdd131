@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <script defer src="scripts/filtered-temples.js"></script>
+</head>
+<body>
+    <header>
+        <div id="menu-toggle" onclick="toggleMenu()">
+            &#9776; <!-- This is the hamburger icon -->
+        </div>
+    
+        <div id="filters">
+            <button onclick="filterTemples('old')">Old</button>
+            <button onclick="filterTemples('new')">New</button>
+            <button onclick="filterTemples('large')">Large</button>
+            <button onclick="filterTemples('small')">Small</button>
+            <button onclick="filterTemples('all')">All</button>
+        </div>
+    </header>
+    
+    <main>
+        <div id="temples-container"></div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Alexandre Lusa Jiresse, Democratic Republic of Congo</p>
+        <p>&copy; <span id="year"></span> - Last updated: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
